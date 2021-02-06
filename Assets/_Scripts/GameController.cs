@@ -19,9 +19,9 @@ public class GameController : MonoBehaviour
 
     private void OnGUI()
     {
-        GUI.Box(new Rect(300.0f, 10.0f, 600.0f, 500.0f), "Panel");
+        GUI.Box(new Rect(250.0f, 10.0f, 600.0f, 500.0f), "Panel");
 
-        if (GUI.Button(new Rect(512.0f, 10.0f, 100.0f, 30.0f), "Start"))
+        if (GUI.Button(new Rect(500.0f, 30.0f, 100.0f, 30.0f), "Start"))
         {
             SceneManager.LoadScene("Main");
         }
